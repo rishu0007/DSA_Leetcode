@@ -12,6 +12,7 @@
 class BSTIterator {
     stack<TreeNode*> st;
 public:
+    // understood well from striver's video
     BSTIterator(TreeNode* root) {
         leftTree(root);
     }
