@@ -1,6 +1,7 @@
 class Solution {
 public:
     vector<int> diStringMatch(string s) {
+        // whenever we encounter I, we have to push lower value and if we encounter D, we have     to push heigher value but the range of lower and heigher will be from [0 to s.size]
         int low = 0;
         int high = s.size();
         vector<int> ans;
